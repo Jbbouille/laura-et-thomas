@@ -1,0 +1,104 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #F9F7EC;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+}
+
+header {
+    background-color: #B1DCE2;
+    font-family: 'Gentium Basic', serif;
+    font-style: italic;
+    font-weight: 400;
+    padding-bottom: 18px;
+    font-size: 26px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+h1 {
+    margin-bottom: 0;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navigation {
+    width: 40%;
+    margin: 20px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.max-125 {
+    max-width: 125px;
+}
+
+a {
+    border: solid;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    color: black;
+}
+
+a:visited {
+    color: #684a44;
+}
+
+a:hover {
+    color: #3a3998;
+}
+
+p {
+    font-family: 'Adamina', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.a-2 {
+    justify-content: center;
+    width: 60%;
+    color: #F4511E;
+}
+
+.a-2:visited {
+    color: #684a44;
+}
+
+.a-2:hover {
+    color: #4a7e6c;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+}
