@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: #B1DCE2;
+    background-color: white;
     font-family: 'Gentium Basic', serif;
     font-style: italic;
     font-weight: 400;
@@ -23,6 +23,11 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+#line {
+    background-color: #B1DCE2;
+    height: 12px;
 }
 
 #title {
@@ -38,11 +43,11 @@ main {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 #navigation {
-    width: 40%;
+    max-width: 400px;
     margin: 20px;
 }
 
@@ -63,7 +68,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    color: black;
+    color: #684a44;
 }
 
 a:visited {
@@ -85,7 +90,7 @@ p {
 .a-2 {
     justify-content: center;
     width: 60%;
-    color: #F4511E;
+    color: #684a44;
 }
 
 .a-2:visited {
@@ -93,7 +98,7 @@ p {
 }
 
 .a-2:hover {
-    color: #4a7e6c;
+    color: #3a3998;
 }
 
 @media screen and (max-width: 768px) {

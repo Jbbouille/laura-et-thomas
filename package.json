@@ -6,7 +6,7 @@
   "scripts": {
     "min-main": "parcel-css --minify --nesting --bundle --targets '>= 4%' index.css -o index.min.css",
     "dev": "yarn run min-main && python3 -m http.server --directory .",
-    "build": "yarn run min-main && rm -f site.zip && zip -r site.zip index-main-right.avif index-main-right.png index-main-right.webp img_1.png img.webp img.png img.avif favicon.svg eglise.jpg location.html index.min.css index.html hebergement.html confirmation.html",
+    "build": "yarn run min-main && rm -f site.zip && zip -r site.zip favicon.svg lieux-2.avif confirmation.webp poules.avif img.avif hebergement.html confirmation.html confirmation.jpg index-secondaire.html img_1.png fl.svg index-main-right.webp eglise.jpg index.css contact.html lieux-1.jpg poules.webp cadeau.jpg danger.avif poules.jpg danger.webp img.webp lieux-2.webp index.html location.html lieux-1.avif cadeau.html index-main-right.avif lieux-2.jpg img.png index-main-right.png danger.html confirmation.avif lieux-1.webp cadeau.webp cadeau.avif danger.jpg",
     "svgo": "svgo"
   },
   "dependencies": {
