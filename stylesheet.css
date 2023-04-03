@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Gentium Basic';
+    src: local('Gentium Basic'), local('GentiumBasic'),
+        url('GentiumBasic.woff2') format('woff2'),
+        url('GentiumBasic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

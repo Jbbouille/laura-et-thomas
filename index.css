@@ -2,6 +2,8 @@ html {
     box-sizing: border-box;
     height: 100%;
     background-color: #F9F7EC;
+    font-family: 'Gentium Basic', serif;
+    color: black;
 }
 
 *, *::before, *::after {
@@ -15,7 +17,6 @@ body {
 
 header {
     background-color: white;
-    font-family: 'Gentium Basic', serif;
     font-style: italic;
     font-weight: 400;
     padding-bottom: 18px;
@@ -33,7 +34,14 @@ header {
 #title {
     display: flex;
     flex-direction: column;
-    align-items: center;}
+    align-items: center;
+    border: none;
+}
+
+#title:hover {
+    background-color: unset;
+    color: #B1DCE2;
+}
 
 h1 {
     margin-bottom: 0;
@@ -61,26 +69,24 @@ li {
 }
 
 a {
-    border: solid;
+    border: solid #B1DCE2;
     text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    color: #684a44;
 }
 
 a:visited {
-    color: #684a44;
+    color: black;
 }
 
 a:hover {
-    color: #3a3998;
+    background-color: #B1DCE2;
 }
 
 p {
-    font-family: 'Adamina', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -90,15 +96,14 @@ p {
 .a-2 {
     justify-content: center;
     width: 60%;
-    color: #684a44;
 }
 
 .a-2:visited {
-    color: #684a44;
+    color: black;
 }
 
 .a-2:hover {
-    color: #3a3998;
+    background-color: #B1DCE2;
 }
 
 @media screen and (max-width: 768px) {

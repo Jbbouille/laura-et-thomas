@@ -5,8 +5,9 @@
   "license": "MIT",
   "scripts": {
     "min-main": "parcel-css --minify --nesting --bundle --targets '>= 4%' index.css -o index.min.css",
+    "min-style": "parcel-css --minify --nesting --bundle --targets '>= 4%' stylesheet.css -o stylesheet.min.css",
     "dev": "yarn run min-main && python3 -m http.server --directory .",
-    "build": "yarn run min-main && rm -f site.zip && zip -r site.zip favicon.svg lieux-2.avif confirmation.webp poules.avif img.avif hebergement.html confirmation.html confirmation.jpg index-secondaire.html img_1.png fl.svg index-main-right.webp eglise.jpg index.css contact.html lieux-1.jpg poules.webp cadeau.jpg danger.avif poules.jpg danger.webp img.webp lieux-2.webp index.html location.html lieux-1.avif cadeau.html index-main-right.avif lieux-2.jpg img.png index-main-right.png danger.html confirmation.avif lieux-1.webp cadeau.webp cadeau.avif danger.jpg",
+    "build": "yarn run min-main && rm -f site.zip && zip -r site.zip favicon.svg lieux-2.avif confirmation.webp poules.avif img.avif hebergement.html confirmation.html confirmation.jpg index-secondaire.html img_1.png fl.svg index-main-right.webp eglise.jpg index.min.css contact.html lieux-1.jpg poules.webp cadeau.jpg danger.avif poules.jpg danger.webp img.webp lieux-2.webp index.html location.html lieux-1.avif cadeau.html index-main-right.avif lieux-2.jpg img.png index-main-right.png danger.html confirmation.avif lieux-1.webp cadeau.webp cadeau.avif danger.jpg GentiumBasic.woff GentiumBasic.woff2 GentiumBasic-Bold.woff GentiumBasic-Bold.woff2 GentiumBasic-BoldItalic.woff GentiumBasic-BoldItalic.woff2 GentiumBasic-Italic.woff GentiumBasic-Italic.woff2 stylesheet.min.css",
     "svgo": "svgo"
   },
   "dependencies": {
