@@ -60,17 +60,12 @@ main {
     margin: 20px;
 }
 
-li {
-    list-style: none;
-    margin-bottom: 15px;
-}
-
 .max-125 {
     max-width: 125px;
 }
 
 a {
-    border: solid #B1DCE2;
+    border: solid 1.5px #B1DCE2;
     text-decoration: none;
     display: flex;
     flex-direction: row;
@@ -78,6 +73,7 @@ a {
     align-items: center;
     padding: 5px;
     font-size: 18px;
+    color: black;
 }
 
 a:visited {
@@ -99,6 +95,7 @@ p {
     justify-content: center;
     width: 60%;
     font-size: 18px;
+    color: black;
 }
 
 .a-2:visited {
@@ -107,6 +104,10 @@ p {
 
 .a-2:hover {
     background-color: #B1DCE2;
+}
+
+.fs-20 {
+    font-size: 20px;
 }
 
 @media screen and (max-width: 768px) {
